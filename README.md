@@ -21,7 +21,7 @@ Hi! I’m Jack, and this is my second year joining WRO. Last year I joined RoboM
   <img src="team-photos/Moses_Wong.jpg" alt="Moses Wong" width="50%">
 </div>
 
-Hello. I’m Moses from Hong kong. This is my first season participating in WRO, and this time I dedicated myself into Future Engineer, an event which I am new to. I have strong interests in technology, computers and programming.
+Hello. I’m Moses, and this is my first year participating in WRO. This year, I have dedicated myself into Future Engineer, an event which I am completely new to. I have strong interests in technology, computers and programming, and I hope to achieve good results this time.
 
 ### Ethan Mak
 <div align="center">
