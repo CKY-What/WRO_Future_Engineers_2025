@@ -4,7 +4,7 @@
 </div>
 
 <div align="center">
-  <img src="images/logo.jpg" alt="Logo" width="100%">
+  <img src="other/readme-images/logo.jpg" alt="Logo" width="100%">
 </div>
 
 # The Team
