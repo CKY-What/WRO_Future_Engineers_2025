@@ -151,6 +151,8 @@ The gyro sensor is needed for turning and to ensure the car is driving in a stra
 
 ### HuskeyLens
 
+Because the Ev3 color sensor cannot detect color from far away, we used huskeylens to detect the red and green bricks. We used the colour detection mode on the Huskylens camera and identified Colour Red as ID1 and Colour Green as ID2.
+
 <div align="center">
 <table>
   <tr>
@@ -173,3 +175,54 @@ The gyro sensor is needed for turning and to ensure the car is driving in a stra
   </tr>
 </table>
 </div>
+
+# 3. Obstacle Management
+
+For the obstacle challenge, we utilized the Huskylens to identify the green and red blocks that represent traffic signs. We implemented color recognition, designating the green block as ID1 and the red block as ID2. Using the Mindstorm software, we introduced a variable called "zone no." to categorize the image input from the Huskylens into three rows based on the heights of the blocks. The closest block was assigned "zone no. 1," the middle block received a value of 2, and the furthest block was designated "zone no. 3." The car's turning angle was adjusted according to its distance from the block, determined by the corresponding zone number.
+
+Additionally, we created a variable named "zone letter," which divided the image from the Huskylens into three lateral zones: left, middle, and right. The left zone was assigned a value of 1, the middle zone a value of 2, and the right zone a value of 3. According to our rules, when the car detects a red traffic sign, it must turn right; thus, it will execute a sharper turn if the block is closer to its right side. Conversely, for the green block, the car will turn more sharply if the block is nearer to its left side. The maximum turning angle is set at 35 degrees, and the car will not turn if the block is already in the dodging zone, ensuring it avoids collisions.
+
+To facilitate this, we transformed the image input from the Huskylens into a 3 x 3 grid and implemented a simple form of proportional turning based on PID control. This approach provides the car with increased flexibility in dodging obstacles. After executing a dodge, we adjusted the car to align parallel to the track, using a gyro for self-correction. However, the car also needs to monitor the blocks in the next row and move towards the midline to maintain consistent dodging behavior. As a result, it will turn 35 degrees in the opposite direction of its previous dodge.
+
+We incorporated a loop interrupt in the program, allowing the turn to be interrupted if necessary to avoid the next block. This process continues until one of the ultrasonic sensors, mounted on the other side, detects a distance greater than 200 degrees, prompting the car to turn 90 degrees and resume the traffic light dodging program.
+
+# 4. Pictures - Team and Vehicles
+
+<table align="center">
+  <tr>
+    <td align="center"><strong>Front View</strong></td>
+    <td align="center"><strong>Back View</strong></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="robot-photos/front.jpg" alt="Front View" width="300">
+    </td>
+    <td align="center">
+      <img src="robot-photos/back.jpg" alt="Back View" width="300">
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Left View</strong></td>
+    <td align="center"><strong>Right View</strong></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="robot-photos/left.jpg" alt="Left View" width="300">
+    </td>
+    <td align="center">
+      <img src="robot-photos/right.jpg" alt="Right View" width="300">
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Top View</strong></td>
+    <td align="center"><strong>Bottom View</strong></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="robot-photos/top.jpg" alt="Top View" width="300">
+    </td>
+    <td align="center">
+      <img src="robot-photos/bottom.jpg" alt="Bottom View" width="300">
+    </td>
+  </tr>
+</table>
