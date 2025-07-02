@@ -4,21 +4,21 @@
 </div>
 
 <div align="center">
-  <img src="other/readme-images/Logo.jpg" alt="Logo" width="100%">
+  <img src="team-photos/Logo.jpg" alt="Logo" width="100%">
 </div>
 
 # The Team
 
 ### Jack Wong
 <div align="center">
-  <img src="other/readme-images/Jack_Wong" alt="Jack Wong" width="50%">
+  <img src="team-photos/Jack_Wong" alt="Jack Wong" width="50%">
 </div>
 
 Hi! I’m Jack, and this is my second year joining WRO. Last year I joined RoboMission Junior and won the Hong Kong round in team Control C. This year, I gave myself a new challenge to join Future Engineer, an event that I had no past experience in. Being the team leader and the main coder of the team, I have learnt much and hope to have satisfactory results!
 
 ### Moses Wong
 <div align="center">
-  <img src="other/readme-images/Moses_Wong" alt="Moses Wong" width="50%">
+  <img src="team-photos/Moses_Wong" alt="Moses Wong" width="50%">
 </div>
 
 Hello. I’m Moses from Hong kong. This is my first season participating in WRO, and this time I dedicated myself into Future Engineer, an event which I am new to. I have strong interests in technology, computers and programming.
