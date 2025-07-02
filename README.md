@@ -3,6 +3,13 @@
   <h1>What.</h1>
 </div>
 
+<div align="center">
+  <img src="images/logo.jpg" alt="Logo" width="100%">
+</div>
+
+# The Team
+
+
 ### 1. Mobility Management
 The front two wheels of the car are controlled by 1 medium EV3 motor, which the front two wheels control the steering. The back wheels are also controlled by a EV3 medium motor but with a differential gear, which allows the other wheel to move even if one is stuck. Although EV3 medium motors are less powerful than the large motors, it is faster and has better control over the car, allowing our car to be more precise when turning and moving in straight lines. 
 
