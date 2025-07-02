@@ -1,2 +1,2 @@
 # Team Photos
-Team Photos are included in this directory
+Team/Team Member Photos are included in this directory
