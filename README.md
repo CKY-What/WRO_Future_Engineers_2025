@@ -188,6 +188,33 @@ We incorporated a loop interrupt in the program, allowing the turn to be interru
 
 # 4. Pictures - Team and Vehicles
 
+### Team Photos
+
+<div align="center">
+  <img src="team-photos/Jack_Wong.jpg" alt="Jack Wong" width="50%">
+</div>
+
+**Jack**: Jack Wong is the coordinator of this team. He is responsible for arranging training sessions for the team. He is mainly responsible for tuning and coding the robot in use for the Open Challenge. He effectively leads the teams and guides them to complete the tasks and reports on time. 
+
+<div align="center">
+  <img src="team-photos/Moses_Wong.jpg" alt="Moses Wong" width="50%">
+</div>
+
+**Moses**: Moses Wong is largely responsible for the technical parts of this project. He helped with utilization of the Huskylens camera, as well as designing the robot to be more compact and efficient.
+
+<div align="center">
+  <img src="team-photos/Ethan_Makmur_Mak.jpg" alt="Ethan Mak" width="50%">
+</div>
+
+**Ethan**: Ethan Mak is mainly responsible for writing the reports for this project. He has a wide understanding of the rundown of the project, thus allowing him to effectively communicate it into the Engineering Report. He is crucial for recording the robot and analysing said footage, giving the team effective analysis. 
+
+<div align="center">
+  <img src="team-photos/Messiah.jpg" alt="Mr. Kong" width="50%">
+</div>
+
+**Coach**: Our team coach has provided valuable feedback throughout the project, he has given us insights on certain aspects of the project such as the AI cameras and its limitations. He has provided technical support such as various syntax errors and compile errors, which we have faced throughout the course of our work.
+
+### Robot Photos
 <table align="center">
   <tr>
     <td align="center"><strong>Front View</strong></td>
@@ -226,3 +253,23 @@ We incorporated a loop interrupt in the program, allowing the turn to be interru
     </td>
   </tr>
 </table>
+
+# 5. Github Utilizations
+
+GitHub played a pivotal role in documenting our WRO Future Engineers 2025 project, serving as a central hub for collaboration and version control. By creating a dedicated repository, we ensured that all team members could easily access and contribute to the project documentation, code, and resources. This facilitated real-time updates, allowing us to track changes and maintain an organized structure.
+
+We utilized Markdown for clear formatting of our documentation, which included team member profiles, technical specifications of components, and descriptions of our robotic systems. This made the information not only visually appealing but also easy to navigate.
+
+Moreover, we employed GitHub's issue tracking feature to manage tasks and address any challenges encountered during development. This helped us prioritize our efforts and maintain focus on critical aspects of the project.
+In addition, we integrated GitHub Pages to create a user-friendly website for showcasing our project, complete with images and diagrams that illustrate our design and functionality. This online presence enhanced our ability to share progress with stakeholders and the broader community. Overall, using GitHub to document our progress and effective teamwork ensured this comprehensive record of our WRO Future Engineers 2025 challenge.
+
+# 6. Engineering Factor
+
+<div align="center">
+  <img src="robot-photos/right.jpg" alt="Robot" width="80%">
+</div>
+
+As shown in the photo above, our team constructed our robot chassis from scratch, carefully considering each design element to maximize functionality. We chose this modular design primarily for its ease of modification and adaptability, allowing us to make adjustments as needed throughout the development process. By utilizing the LEGO Technic system, we ensured that we could access a wide range of readily available parts, which not only streamlined our assembly process but also provided significant flexibility in how we design and configure the robot.
+
+For optimal performance, we strategically positioned the ultrasonic sensors on the left and right sides at the front of the robot. This placement enables quick and accurate detection of walls, allowing the robot to react promptly when it approaches obstacles. Additionally, the color sensor is deliberately situated at the front of the chassis. As the first point of contact with the line, this placement ensures the fastest possible reaction time, enhancing the robot's ability to make quick turns and maintain its course. Overall, our design choices reflect a balance between efficiency, practicality, and the ability to adapt to various challenges during the competition.
+
