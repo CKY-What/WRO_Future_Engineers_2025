@@ -9,8 +9,28 @@
 
 # The Team
 
+### Jack Wong
+<div align="center">
+  <img src="other/readme-images/Jack_Wong" alt="Jack Wong" width="50%">
+</div>
 
-### 1. Mobility Management
+Hi! I’m Jack, and this is my second year joining WRO. Last year I joined RoboMission Junior and won the Hong Kong round in team Control C. This year, I gave myself a new challenge to join Future Engineer, an event that I had no past experience in. Being the team leader and the main coder of the team, I have learnt much and hope to have satisfactory results!
+
+### Moses Wong
+<div align="center">
+  <img src="other/readme-images/Moses_Wong" alt="Moses Wong" width="50%">
+</div>
+
+Hello. I’m Moses from Hong kong. This is my first season participating in WRO, and this time I dedicated myself into Future Engineer, an event which I am new to. I have strong interests in technology, computers and programming.
+
+### Ethan Mak
+<div align="center">
+  <img src="other/readme-images/Ethan_Makmur_Mak" alt="Ethan Mak" width="50%">
+</div>
+
+Hi! My name is Ethan. My academic passions is science, ict and robotics, but I enjoy cooking, playing in orchestra and basketball.
+
+# 1. Mobility Management
 The front two wheels of the car are controlled by 1 medium EV3 motor, which the front two wheels control the steering. The back wheels are also controlled by a EV3 medium motor but with a differential gear, which allows the other wheel to move even if one is stuck. Although EV3 medium motors are less powerful than the large motors, it is faster and has better control over the car, allowing our car to be more precise when turning and moving in straight lines. 
 
 ### Motor
@@ -37,7 +57,7 @@ The positives of differential gears include improved handling when turning. It a
 Steering Feature 
 The steering feature in the front allows us to 
 
-### 2. Power and Sense Management
+# 2. Power and Sense Management
 
 This robot’s power and sense management system is composed of the Ev3 intelligence brick, ultrasonic sensors, a color sensor, a gyro sensor and a pixy cam(possibly). 
 
