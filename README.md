@@ -79,3 +79,27 @@ Our car has two ultrasonic sensors to detect the surrounding walls and when it i
   </tr>
 </table>
 </div>
+
+### Color Sensors
+
+Our car is equipped with a color sensor, for detecting colors. (Need to elaborate later). 
+
+<div align="center">
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="other/readme-images/Color_Sensor.jpg" alt="Color Sensor" width="80%">
+    </td>
+    <td width="50%" align="left" valign="top">
+      <h1>Specifications</h1>
+      <ul>
+        <li>Accuracy: +/- 3 degrees</li>
+        <li>Max output: 440°/sec/li>
+        <li>Sample rate 1 kHz</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+</div>
+
+###HuskeyLens
