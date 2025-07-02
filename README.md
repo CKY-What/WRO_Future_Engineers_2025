@@ -102,4 +102,27 @@ Our car is equipped with a color sensor, for detecting colors. (Need to elaborat
 </table>
 </div>
 
-###HuskeyLens
+### HuskeyLens
+
+<div align="center">
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="other/readme-images/HuskyLens.jpg" alt="HuskyLens" width="80%">
+    </td>
+    <td width="50%" align="left" valign="top">
+      <h1>Specifications</h1>
+      <ul>
+        <li>Processor: Kendryte K210</li>
+        <li>Image Sensor: OV2640 / GC0328</li>
+        <li>Supply Voltage: 3.3~5.0V</li>
+        <li>Current Consumption(TYP): 320mA @ 3.3V, 230mA @ 5.0V (face recognition mode; 80% backlight brightness; fill light off)</li>
+        <li>Interrupt: UART; I2C</li>
+        <li>Display: 2.0-inch IPS screen with 320*240 resolution</li>
+        <li>Built-in Algorithms: Face Recognition, Object Tracking, Object Recognition, Line Tracking, Color Recognition, Tag Recognition, Object Classification</li>
+        <li>Dimension: 52mm x 44.5mm (2.05*1.75 inch</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+</div>
