@@ -7,7 +7,13 @@
   <img src="other/readme-images/Logo.jpg" alt="Logo" width="100%">
 </div>
 
-# The Team
+This repository contains the documentation for What's robot for the 2025 World Robot Olympiad Future Engineers competition. The robot was designed and built by a team of three students.
+
+## Table of Contents
+* [The Team](#team)
+* [Mobility Management](#mobility-management)
+
+# The Team <a class="anchor" id="team"></a>
 
 ### Jack Wong
 <div align="center">
@@ -30,7 +36,7 @@ Hello. I’m Moses, and this is my first year participating in WRO. This year, I
 
 Hi! My name is Ethan. My academic passions is science, ict and robotics, but I enjoy cooking, playing in orchestra and basketball.
 
-# 1. Mobility Management
+# 1. Mobility Management <a class="anchor" id="mobility-management"></a>
 The front two wheels of the robot allow the car to steer accordingly, this is controlled via a Medium EV3 motor. The back wheels are responsible for propelling the car forward, this is also controlled by a EV3 medium motor paired with a differential gearbox, allowing both wheels to spin independently despite having to withstand different friction forces, this inturn allows our car to steer more sharply over the turns. Although EV3 medium motors are less powerful than the large motors, it is faster and has better control over the car, allowing our car to be more precise when turning and moving in straight lines. 
 
 ### Motor
