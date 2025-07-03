@@ -10,10 +10,23 @@
 This repository contains the documentation for What's robot for the 2025 World Robot Olympiad Future Engineers competition. The robot was designed and built by a team of three students.
 
 ## Table of Contents
-* [The Team](#team)
-* [Mobility Management](#mobility-management)
+* [The Team](#tteam)
+1. [Mobility Management](#mobility-management)
+    * [Motor](#motor)
+2. [Power and Sense Management](#power-and-sense-management)
+    * [EV3 Intelligence Brick](#ev3-brick)
+    * [Ultrasonic Sensors](#ultrasonic-sensors)
+    * [Color Sensor](#color-sensor)
+    * [Gyro Sensor](#gyro-sensor)
+    * [HuskyLens](#huskylens)
+3. [Obstacle Management](#obstacle-management)
+4. [Team Photos](#photos)
+    * [Team](#team)
+    * [Robot](#robot)
+5. [Github Utilizations](#github-utilizations)
+6. [Engineering Factor](#engineering-factor)
 
-# The Team <a class="anchor" id="team"></a>
+# The Team <a class="anchor" id="tteam"></a>
 
 ### Jack Wong
 <div align="center">
@@ -37,9 +50,11 @@ Hello. I’m Moses, and this is my first year participating in WRO. This year, I
 Hi! My name is Ethan. My academic passions is science, ict and robotics, but I enjoy cooking, playing in orchestra and basketball.
 
 # 1. Mobility Management <a class="anchor" id="mobility-management"></a>
+
 The front two wheels of the robot allow the car to steer accordingly, this is controlled via a Medium EV3 motor. The back wheels are responsible for propelling the car forward, this is also controlled by a EV3 medium motor paired with a differential gearbox, allowing both wheels to spin independently despite having to withstand different friction forces, this inturn allows our car to steer more sharply over the turns. Although EV3 medium motors are less powerful than the large motors, it is faster and has better control over the car, allowing our car to be more precise when turning and moving in straight lines. 
 
-### Motor
+### Motor <a class="anchor" id="motor"></a>
+
 <div align="center">
 <table>
   <tr>
@@ -65,9 +80,10 @@ We utilized a Direct Current (DC) motor, specifically the JGA25-370 type, select
 
 This chassis offers a variety of advantages. First and foremost, the Ackermann steering geometry is engineered to ensure that all wheels of the vehicle trace circular paths during turns. This design minimizes tire scrub and enhances maneuverability. The geometry of the steering linkage promotes proper wheel alignment, which in turn improves stability and control. Additionally, the chassis design effectively distributes forces evenly, aiding in load management during turns and reducing wear on both the tires and steering components. Furthermore, the steering mechanism provides a mechanical advantage, making steering easier and requiring less effort. This feature is particularly important for remote-controlled and autonomous vehicles.
 
-# 2. Power and Sense Management
+# 2. Power and Sense Management <a class="anchor" id="power-and-sense-management"></a>
 
-### EV3 Intelligence Brick
+### EV3 Intelligence Brick <a class="anchor" id="ev3-brick"></a>
+
 <div align="center">
 <table>
   <tr>
@@ -93,7 +109,8 @@ Our car is powered by an Ev3 Intelligent Brick, with a 9V voltage, capable of ru
 
 In the Open Challenge, we implemented 2 Ultrasonic sensors to measure the distance between the car and surrounding walls. Initially, we set a target angle for the car to align with the center of the track, starting at 0 degrees and increasing by 90 degrees after each turn. However, we recognized that the EV3 gyro could experience drift, leading to inaccurate data. To address this issue, we relied on the ultrasonic sensor for distance measurements. When the car detects a wall close to its left or right side, it adjusts its moving angle to realign with the center of the track. 
 
-### Ultrasonic Sensors
+### Ultrasonic Sensors <a class="anchor" id="ultrasonic-sensors"></a>
+
 Additionally, during the obstacle challenge round, the ultrasonic sensor identifies nearby obstacles, allowing the car to assess the distance between itself and these objects. This information is crucial for enabling the car to make timely decisions to turn left or right in response to traffic signs, enhancing its navigational capabilities.
 
 <div align="center">
@@ -113,7 +130,7 @@ Additionally, during the obstacle challenge round, the ultrasonic sensor identif
 </table>
 </div>
 
-### Color Sensors
+### Color Sensors <a class="anchor" id="color-sensor"></a>
 
 Our car is equipped with a color sensor, for detecting the yellow and blue lines on the map. This acts as a failsafe to the turning of the car. If the ultrasonic sensor is unable to detect the walls, or lack thereof, the colour sensor allows the robot to turn no matter the data which ultrasonic sensors return.
 
@@ -133,7 +150,7 @@ Our car is equipped with a color sensor, for detecting the yellow and blue lines
 </table>
 </div>
 
-###Gyro Sensor
+### Gyro Sensor <a class="anchor" id="gyro-sensor"></a>
 
 The gyro sensor is needed for turning and to ensure the car is driving in a straight line. The gyro acts as the first layer of control, which the robot mainly relies on during Open Challenge. We noticed several flaws in the heavy reliance of the gyro sensor, for example, a prominent issue is the cumulative error which builds up over 3 laps. Thus, our team used ultrasonic sensor to support the weaknesses in the Gyro Sensor. 
 
@@ -155,7 +172,7 @@ The gyro sensor is needed for turning and to ensure the car is driving in a stra
 </table>
 </div>
 
-### HuskeyLens
+### HuskeyLens <a class="anchor" id="huskylens"></a>
 
 Because the Ev3 color sensor cannot detect color from far away, we used huskeylens to detect the red and green bricks. We used the colour detection mode on the Huskylens camera and identified Colour Red as ID1 and Colour Green as ID2.
 
@@ -182,7 +199,7 @@ Because the Ev3 color sensor cannot detect color from far away, we used huskeyle
 </table>
 </div>
 
-# 3. Obstacle Management
+# 3. Obstacle Management <a class="anchor" id="obstacle-management"></a>
 
 For the obstacle challenge, we utilized the Huskylens to identify the green and red blocks that represent traffic signs. We implemented color recognition, designating the green block as ID1 and the red block as ID2. Using the Mindstorm software, we introduced a variable called "zone no." to categorize the image input from the Huskylens into three rows based on the heights of the blocks. The closest block was assigned "zone no. 1," the middle block received a value of 2, and the furthest block was designated "zone no. 3." The car's turning angle was adjusted according to its distance from the block, determined by the corresponding zone number.
 
@@ -192,9 +209,9 @@ To facilitate this, we transformed the image input from the Huskylens into a 3 x
 
 We incorporated a loop interrupt in the program, allowing the turn to be interrupted if necessary to avoid the next block. This process continues until one of the ultrasonic sensors, mounted on the other side, detects a distance greater than 200 degrees, prompting the car to turn 90 degrees and resume the traffic light dodging program.
 
-# 4. Pictures - Team and Vehicles
+# 4. Pictures - Team and Vehicles <a class="anchor" id="photos"></a>
 
-### Team Photos
+### Team Photos <a class="anchor" id="team"></a>
 
 <div align="center">
   <img src="team-photos/Jack_Wong.jpg" alt="Jack Wong" width="50%">
@@ -220,7 +237,7 @@ We incorporated a loop interrupt in the program, allowing the turn to be interru
 
 **Coach**: Our team coach has provided valuable feedback throughout the project, he has given us insights on certain aspects of the project such as the AI cameras and its limitations. He has provided technical support such as various syntax errors and compile errors, which we have faced throughout the course of our work.
 
-### Robot Photos
+### Robot Photos <a class="anchor" id="robot"></a>
 <table align="center">
   <tr>
     <td align="center"><strong>Front View</strong></td>
@@ -260,7 +277,7 @@ We incorporated a loop interrupt in the program, allowing the turn to be interru
   </tr>
 </table>
 
-# 5. Github Utilizations
+# 5. Github Utilizations <a class="anchor" id="github-utilizations"></a>
 
 GitHub played a pivotal role in documenting our WRO Future Engineers 2025 project, serving as a central hub for collaboration and version control. By creating a dedicated repository, we ensured that all team members could easily access and contribute to the project documentation, code, and resources. This facilitated real-time updates, allowing us to track changes and maintain an organized structure.
 
@@ -269,7 +286,7 @@ We utilized Markdown for clear formatting of our documentation, which included t
 Moreover, we employed GitHub's issue tracking feature to manage tasks and address any challenges encountered during development. This helped us prioritize our efforts and maintain focus on critical aspects of the project.
 In addition, we integrated GitHub Pages to create a user-friendly website for showcasing our project, complete with images and diagrams that illustrate our design and functionality. This online presence enhanced our ability to share progress with stakeholders and the broader community. Overall, using GitHub to document our progress and effective teamwork ensured this comprehensive record of our WRO Future Engineers 2025 challenge.
 
-# 6. Engineering Factor
+# 6. Engineering Factor <a class="anchor" id="engineering-factor"></a>
 
 <div align="center">
   <img src="robot-photos/right.jpg" alt="Robot" width="80%">
