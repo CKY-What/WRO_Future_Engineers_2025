@@ -23,6 +23,7 @@ This repository contains the documentation for What's robot for the 2025 World R
 4. [Team Photos](#photos)
     * [Team](#team)
     * [Robot](#robot)
+    * [Video](#video)
 5. [Github Utilizations](#github-utilizations)
 6. [Engineering Factor](#engineering-factor)
 
@@ -276,6 +277,10 @@ We incorporated a loop interrupt in the program, allowing the turn to be interru
     </td>
   </tr>
 </table>
+
+### Video <a class="anchor" id="video"></a>
+
+[![Watch the video](https://img.youtube.com/vi/kiQzRMQVRg4/maxresdefault.jpg)](https://www.youtube.com/watch?v=kiQzRMQVRg4)
 
 # 5. Github Utilizations <a class="anchor" id="github-utilizations"></a>
 
